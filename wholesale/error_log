@@ -1,0 +1,17 @@
+[06-Mar-2017 03:36:44 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/wholesale/incoming.php on line 11
+[06-Mar-2017 03:36:45 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/wholesale/incoming.php on line 21
+[06-Mar-2017 03:37:16 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/wholesale/incoming.php on line 11
+[06-Mar-2017 03:37:16 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/wholesale/incoming.php on line 21
+[13-Jul-2017 11:31:18 America/New_York] PHP Notice:  Undefined index: cname in /home/thehealt/public_html/winsor/wholesale/checkout.php on line 115
+[13-Jul-2017 11:31:18 America/New_York] PHP Notice:  Undefined variable: row in /home/thehealt/public_html/winsor/wholesale/checkout.php on line 116
+[17-Jul-2017 09:36:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/wholesale/sales.php:3) in /home/hiekenya/public_html/pharmacy/wholesale/auth.php on line 3
+[17-Jul-2017 09:37:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/wholesale/sales.php:3) in /home/hiekenya/public_html/pharmacy/wholesale/auth.php on line 3
+[17-Jul-2017 09:37:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/wholesale/sales.php:3) in /home/hiekenya/public_html/pharmacy/wholesale/auth.php on line 3
+[17-Jul-2017 09:39:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/wholesale/sales.php:3) in /home/hiekenya/public_html/pharmacy/wholesale/auth.php on line 3
+[10-Dec-2018 13:57:49 America/Chicago] PHP Warning:  Division by zero in /home/hiekenya/public_html/pharmacy/wholesale/sales.php on line 223
+[10-Dec-2018 13:58:39 America/Chicago] PHP Warning:  Division by zero in /home/hiekenya/public_html/pharmacy/wholesale/sales.php on line 223
+[10-Dec-2018 13:59:10 America/Chicago] PHP Warning:  Division by zero in /home/hiekenya/public_html/pharmacy/wholesale/sales.php on line 223
+[10-Dec-2018 13:59:35 America/Chicago] PHP Warning:  Division by zero in /home/hiekenya/public_html/pharmacy/wholesale/incoming.php on line 29
+[10-Dec-2018 13:59:35 America/Chicago] PHP Warning:  Division by zero in /home/hiekenya/public_html/pharmacy/wholesale/incoming.php on line 55
+[10-Dec-2018 13:59:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/wholesale/incoming.php:29) in /home/hiekenya/public_html/pharmacy/wholesale/incoming.php on line 79
+[10-Dec-2018 13:59:45 America/Chicago] PHP Warning:  Division by zero in /home/hiekenya/public_html/pharmacy/wholesale/sales.php on line 223

@@ -1,0 +1,128 @@
+[06-Mar-2017 03:23:05 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/main/incoming.php on line 12
+[06-Mar-2017 03:23:11 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/main/incoming.php on line 12
+[06-Mar-2017 03:25:17 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/main/incoming.php on line 12
+[06-Mar-2017 03:26:02 America/New_York] PHP Notice:  Undefined index: age in /home/thehealt/public_html/winsor/main/checkout.php on line 111
+[06-Mar-2017 03:26:02 America/New_York] PHP Notice:  Undefined index: sex in /home/thehealt/public_html/winsor/main/checkout.php on line 112
+[06-Mar-2017 03:26:13 America/New_York] PHP Notice:  Undefined index: age in /home/thehealt/public_html/winsor/main/checkout.php on line 111
+[06-Mar-2017 03:26:13 America/New_York] PHP Notice:  Undefined index: sex in /home/thehealt/public_html/winsor/main/checkout.php on line 112
+[06-Mar-2017 03:26:26 America/New_York] PHP Notice:  Undefined index: cname in /home/thehealt/public_html/winsor/main/savesales.php on line 10
+[06-Mar-2017 03:26:26 America/New_York] PHP Notice:  Undefined index: opdno in /home/thehealt/public_html/winsor/main/savesales.php on line 11
+[06-Mar-2017 05:04:01 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/main/incoming.php on line 12
+[06-Mar-2017 09:50:25 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/main/incoming.php on line 12
+[06-Mar-2017 09:51:35 America/New_York] PHP Notice:  Undefined index: age in /home/thehealt/public_html/winsor/main/checkout.php on line 111
+[06-Mar-2017 09:51:35 America/New_York] PHP Notice:  Undefined index: sex in /home/thehealt/public_html/winsor/main/checkout.php on line 112
+[06-Mar-2017 09:52:11 America/New_York] PHP Notice:  Undefined index: cname in /home/thehealt/public_html/winsor/main/savesales.php on line 10
+[06-Mar-2017 09:52:11 America/New_York] PHP Notice:  Undefined index: opdno in /home/thehealt/public_html/winsor/main/savesales.php on line 11
+[07-Mar-2017 00:28:48 America/New_York] PHP Notice:  Undefined index: discount in /home/thehealt/public_html/winsor/main/incoming.php on line 12
+[07-Mar-2017 00:29:03 America/New_York] PHP Notice:  Undefined index: age in /home/thehealt/public_html/winsor/main/checkout.php on line 111
+[07-Mar-2017 00:29:03 America/New_York] PHP Notice:  Undefined index: sex in /home/thehealt/public_html/winsor/main/checkout.php on line 112
+[07-Mar-2017 00:29:15 America/New_York] PHP Notice:  Undefined index: cname in /home/thehealt/public_html/winsor/main/savesales.php on line 10
+[07-Mar-2017 00:29:15 America/New_York] PHP Notice:  Undefined index: opdno in /home/thehealt/public_html/winsor/main/savesales.php on line 11
+[10-Dec-2018 12:44:00 America/Chicago] PHP Warning:  A non-numeric value encountered in /home/hiekenya/public_html/pharmacy/main/incoming.php on line 11
+[10-Dec-2018 12:44:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/main/incoming.php:11) in /home/hiekenya/public_html/pharmacy/main/incoming.php on line 44
+[10-Dec-2018 12:49:35 America/Chicago] PHP Warning:  A non-numeric value encountered in /home/hiekenya/public_html/pharmacy/main/incoming.php on line 11
+[10-Dec-2018 12:49:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/main/incoming.php:11) in /home/hiekenya/public_html/pharmacy/main/incoming.php on line 44
+[10-Dec-2018 14:01:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Dec-2018 03:38:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Dec-2018 03:40:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[05-Mar-2019 01:59:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[27-Apr-2019 08:37:14 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[27-Apr-2019 08:38:38 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[27-Apr-2019 08:38:45 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[28-Apr-2019 00:17:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/categories.php:6) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[28-Apr-2019 00:22:09 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/categories.php:6) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[28-Apr-2019 00:22:58 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/saveproduct.php:10) in /home/hiekenya/public_html/pharmacy/main/saveproduct.php on line 15
+[28-Apr-2019 00:22:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/main/saveproduct.php:10) in /home/hiekenya/public_html/pharmacy/main/saveproduct.php on line 43
+[28-Apr-2019 00:24:53 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[28-Apr-2019 08:20:55 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/saveproduct.php:10) in /home/hiekenya/public_html/pharmacy/main/saveproduct.php on line 15
+[28-Apr-2019 08:20:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/main/saveproduct.php:10) in /home/hiekenya/public_html/pharmacy/main/saveproduct.php on line 43
+[28-Apr-2019 08:21:23 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[30-Apr-2019 23:06:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[03-May-2019 02:29:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[16-Jul-2019 04:12:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/salesreport.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[16-Jul-2019 04:13:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/salesreport.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[16-Jul-2019 04:14:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/main/index.php:36) in /home/hiekenya/public_html/pharmacy/main/index.php on line 83
+[16-Jul-2019 04:17:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[16-Jul-2019 04:20:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[30-Jul-2019 02:37:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/salesreport.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[30-Jul-2019 02:43:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[30-Jul-2019 02:43:38 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[30-Jul-2019 03:02:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[30-Jul-2019 04:49:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[15-Dec-2019 01:29:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/inventory.php:31) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 03:55:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/salesreport.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 03:56:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/salesreport.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 04:08:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1582 Incorrect parameter count in the call to native function 'STR_TO_DATE'' in /home/hiekenya/public_html/pharmacy/main/salesreport.php:122
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/salesreport.php(122): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/salesreport.php on line 122
+[11-Jan-2020 04:24:53 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/consumptionlist.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 04:25:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/consumptionlist.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 04:25:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/consumptionlist.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 04:36:26 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY product_code ORDER BY qty desc' at line 2' in /home/hiekenya/public_html/pharmacy/main/consumptionlist.php:145
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/consumptionlist.php(145): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/consumptionlist.php on line 145
+[11-Jan-2020 07:36:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/hiekenya/public_html/pharmacy/main/salesreport.php:162
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/salesreport.php(162): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/salesreport.php on line 162
+[11-Jan-2020 07:37:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'date>='1969-12-31 00:00:00' AND date<='1969-12-31 59:59:59'' at line 1' in /home/hiekenya/public_html/pharmacy/main/salesreport.php:182
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/salesreport.php(182): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/salesreport.php on line 182
+[11-Jan-2020 07:38:39 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'date>='1969-12-31 00:00:00' AND date<='1969-12-31 59:59:59'' at line 1' in /home/hiekenya/public_html/pharmacy/main/salesreport.php:199
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/salesreport.php(199): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/salesreport.php on line 199
+[11-Jan-2020 07:39:25 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'date>='1969-12-31 00:00:00' AND date<='1969-12-31 59:59:59'' at line 1' in /home/hiekenya/public_html/pharmacy/main/salesreport.php:199
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/salesreport.php(199): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/salesreport.php on line 199
+[11-Jan-2020 07:56:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/hiekenya/public_html/pharmacy/main/suppstatements.php:140
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/suppstatements.php(140): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/suppstatements.php on line 140
+[11-Jan-2020 09:12:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/hiekenya/public_html/pharmacy/main/cashhh.php:202
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/cashhh.php(202): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/cashhh.php on line 202
+[11-Jan-2020 09:13:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/hiekenya/public_html/pharmacy/main/cashhh.php:202
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/cashhh.php(202): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/cashhh.php on line 202
+[11-Jan-2020 09:13:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/hiekenya/public_html/pharmacy/main/cashhh.php:202
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/cashhh.php(202): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/cashhh.php on line 202
+[11-Jan-2020 09:15:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/hiekenya/public_html/pharmacy/main/cashhh.php:202
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/cashhh.php(202): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/cashhh.php on line 202
+[11-Jan-2020 09:17:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/cash.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 09:17:44 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/cash.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 09:18:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/cash.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 09:18:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/cash.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 09:19:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/main/cash.php:2) in /home/hiekenya/public_html/pharmacy/main/auth.php on line 3
+[11-Jan-2020 09:20:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/hiekenya/public_html/pharmacy/main/cash.php:202
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/cash.php(202): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/cash.php on line 202
+[11-Jan-2020 10:51:03 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hiekenya_winsor.Payments' doesn't exist' in /home/hiekenya/public_html/pharmacy/main/suplier_ledger.php:110
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/main/suplier_ledger.php(110): PDOStatement->execute()
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/main/suplier_ledger.php on line 110
+[11-Jan-2020 10:54:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/main/savesledger.php:7) in /home/hiekenya/public_html/pharmacy/main/savesledger.php on line 32

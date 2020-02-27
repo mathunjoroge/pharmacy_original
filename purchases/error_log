@@ -1,0 +1,11 @@
+[27-Apr-2019 03:51:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null' in /home/hiekenya/public_html/pharmacy/purchases/savesales.php:18
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/purchases/savesales.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/purchases/savesales.php on line 18
+[27-Apr-2019 03:53:26 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null' in /home/hiekenya/public_html/pharmacy/purchases/savesales.php:18
+Stack trace:
+#0 /home/hiekenya/public_html/pharmacy/purchases/savesales.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/hiekenya/public_html/pharmacy/purchases/savesales.php on line 18
+[02-Dec-2019 09:56:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/pharmacy/purchases/preview.php:4) in /home/hiekenya/public_html/pharmacy/purchases/auth.php on line 3

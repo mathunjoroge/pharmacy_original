@@ -1,0 +1,44 @@
+[05-Mar-2017 11:02:00 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[05-Mar-2017 11:04:02 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[05-Mar-2017 11:04:11 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[05-Mar-2017 11:05:19 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[05-Mar-2017 11:05:23 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[05-Mar-2017 11:07:06 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 03:32:03 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 03:32:32 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 03:34:20 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 03:35:49 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 03:36:09 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 04:55:23 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 05:30:59 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 05:34:14 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 09:21:31 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 09:56:03 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 09:56:41 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[06-Mar-2017 09:57:17 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[07-Mar-2017 00:34:00 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/purchases/sales.php on line 285
+[08-Apr-2017 09:44:44 America/New_York] PHP Notice:  Undefined variable: fgfg in /home/thehealt/public_html/winsor/stocktake/sales.php on line 221
+[08-Apr-2017 09:44:44 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/stocktake/sales.php on line 221
+[08-Apr-2017 09:45:06 America/New_York] PHP Notice:  Undefined variable: fgfg in /home/thehealt/public_html/winsor/stocktake/sales.php on line 221
+[08-Apr-2017 09:45:06 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/stocktake/sales.php on line 221
+[08-Apr-2017 09:45:26 America/New_York] PHP Notice:  Undefined variable: fgfg in /home/thehealt/public_html/winsor/stocktake/sales.php on line 221
+[08-Apr-2017 09:45:26 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/stocktake/sales.php on line 221
+[08-Apr-2017 09:47:46 America/New_York] PHP Notice:  Undefined variable: fgfg in /home/thehealt/public_html/winsor/stocktake/sales.php on line 221
+[08-Apr-2017 09:47:46 America/New_York] PHP Notice:  Undefined variable: asd in /home/thehealt/public_html/winsor/stocktake/sales.php on line 221
+[08-Apr-2017 09:50:18 America/New_York] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/thehealt/public_html/winsor/stocktake/delete.php on line 22
+[14-Jul-2017 23:46:43] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/winsor/stocktake/sales.php:3) in /home/hiekenya/public_html/winsor/stocktake/auth.php on line 3
+[14-Jul-2017 23:55:10] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/hiekenya/public_html/winsor/stocktake/sales.php:1) in /home/hiekenya/public_html/winsor/stocktake/auth.php on line 3
+[05-Mar-2019 01:59:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[05-Mar-2019 02:01:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[27-Apr-2019 08:38:52 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[28-Apr-2019 00:25:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[28-Apr-2019 00:26:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[28-Apr-2019 08:21:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[30-Apr-2019 23:06:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[16-Jul-2019 04:17:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[16-Jul-2019 04:20:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[16-Jul-2019 04:21:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[30-Jul-2019 03:02:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[30-Jul-2019 03:05:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[30-Jul-2019 04:49:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17
+[15-Dec-2019 01:29:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hiekenya/public_html/pharmacy/stocktake/stocktake.php:7) in /home/hiekenya/public_html/pharmacy/main/pagetop.php on line 17

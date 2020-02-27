@@ -1,0 +1,13 @@
+pharmacy
+
+this is a pharmacy management system it manages pharmacy sales, inventory, purchases, expenses, payroll, pharmacy reports such as sales, purchases, customer statements and so on
+
+the roles of the users are defined by the user position.
+
+A user can have either of the three positions,
+
+admin who has all the functions loaded pharmacist who can do sales, record purchases and other relevant report but not financial reports. cashier whose role is cash when the pharmacist makes a sale, it appears on the cashier interface with the amount and the pharmacist username, the cashier just clicks on it and keys in the money given to them so as to produce a receipt. if the cash tendered is less than the amount then the transaction is stored as incomplete.
+
+customers can make payments using cash, Mobile money or bank.
+
+username: admin, password: 12345678. to install, place the folder in htdocs and navigate to 127.0.0.1/pharmacy_improved and database and tables will be created

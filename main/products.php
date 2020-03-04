@@ -231,7 +231,7 @@ if($position=='admin') {
 			echo formatMoney($total, true);
 			?>
 			</td><td><a rel="facebox" title="Click to edit the product" href="editproduct.php?id=<?php echo $row['product_id']; ?>"><button class="btn btn-warning"><i class="icon-edit"></i> </button> </a>
-			<a href="#" id="<?php echo $row['product_id']; ?>" class="delbutton" title="Click to Delete the product"><button class="btn btn-danger"><i class="icon-trash"></i></button></a></td>
+			<a href="deleteproduct.php?id=<?php echo $row['product_id']; ?>" title="Click to Delete the product"><button class="btn btn-danger"><i class="icon-trash"></i></button></a></td>
 			</tr>
 			<?php }
 				

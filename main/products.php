@@ -181,7 +181,7 @@ function sum() {
 				}
 				include('../connect.php');
 				$start=0;
-				$limit=100;
+				$limit=1000;
 					if(isset($_GET['id']))
 {
 	$id=$_GET['id'];

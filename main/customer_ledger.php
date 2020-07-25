@@ -216,8 +216,9 @@ $balcal=$rowas['customer_name'];
 		
 	</tbody>
 </table>
-<div><a rel="facebox" href="addledger.php?invoice=<?php echo $_GET['cname']; ?>&amount=<?php echo $rowa['amount2']; ?>" style="margin-top: 10px;"><button class="btn btn-success"><i class="icon-plus-sign icon-large"></i> Add cash Payment</button></a><a rel="facebox" href="mpesa1.php?invoice=<?php echo $_GET['cname']; ?>&amount=<?php echo $rowa['amount2']; ?>" style="margin-top: 10px;"><button class="btn btn-success"><i class="icon-plus-sign icon-large"></i> Add Mpesa Payment</button></a><a rel="facebox" href="bank1.php?invoice=<?php echo $_GET['cname']; ?>&amount=<?php echo $rowa['amount2']; ?>" style="margin-top: 10px;"><button class="btn btn-success"><i class="icon-plus-sign icon-large"></i> Add  bank Payment</button></a><br><br>
 </div>
+<div><a rel="facebox" href="addledger.php?invoice=<?php echo $_GET['cname']; ?>&amount=<?php echo $rowa['amount2']; ?>" style="margin-top: 10px;"><button class="btn btn-success"><i class="icon-plus-sign icon-large"></i> Add cash Payment</button></a><a rel="facebox" href="mpesa1.php?invoice=<?php echo $_GET['cname']; ?>&amount=<?php echo $rowa['amount2']; ?>" style="margin-top: 10px;"><button class="btn btn-success"><i class="icon-plus-sign icon-large"></i> Add Mpesa Payment</button></a><a rel="facebox" href="bank1.php?invoice=<?php echo $_GET['cname']; ?>&amount=<?php echo $rowa['amount2']; ?>" style="margin-top: 10px;"><button class="btn btn-success"><i class="icon-plus-sign icon-large"></i> Add  bank Payment</button></a><br><br>
+
 </div>
 <button  style="width: 123px; height:35px; margin-top:-2px; float:right;" class="btn btn-success btn-large"><a href="javascript:Clickheretoprint()"><i class="icon icon-print icon-large"></i> Print</a></button>
 <div class="clearfix"></div>

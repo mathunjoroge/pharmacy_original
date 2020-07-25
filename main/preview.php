@@ -261,9 +261,7 @@ $finalcode='INV-'.createRandomPassword();
 	</div>
 	</div>	
 		<a href="javascript:Clickheretoprint()" style="font-size:20px;" id="print">
-			<script type="text/javascript">document.getElementById('print').click();
-			document.getElementById('back').click();			
-		</script><button class="btn btn-success btn-large"><i class="icon-print"></i> Print</button></a>
+			<button class="btn btn-success btn-large"><i class="icon-print"></i> Print</button></a>
 		</div>	
 </div>
 </div>

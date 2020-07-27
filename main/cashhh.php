@@ -1,3 +1,6 @@
+<?php
+require_once('auth.php');
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -115,7 +118,7 @@ $finalcode='INV-'.createRandomPassword();
 
 </div>
 
-<form action="cash.php" method="get">
+<form action="cashhh.php" method="GET">
 <center><strong>From : <input type="text" style="width: 223px; padding:14px;" name="d1" class="tcal" value="" autocomplete="off" /> To: <input type="text" style="width: 223px; padding:14px;" name="d2" class="tcal" value="" autocomplete="off" />
  <button class="btn btn-info" style="width: 123px; height:35px; margin-top:-8px;margin-left:8px;" type="submit"><i class="icon icon-search icon-large"></i> Search</button>
 </strong></center>
@@ -178,28 +181,30 @@ cash summary from&nbsp;<?php $date = $_GET['d1'] ;
 					}
 					return $number;
 				}
-				$d1=$_GET['d1'];
-				$d2=$_GET['d2'];
-				$results = $db->prepare("SELECT sum(amount) FROM sales WHERE date>=:a AND date<=:b");
-				$results->bindParam(':a', $d1);
-				$results->bindParam(':b', $d2);
-				$results->execute();
-				for($i=0; $rows = $results->fetch(); $i++){
-				$dsdsd=$rows['sum(amount)'];
-				echo formatMoney($dsdsd, true);
+				$d1=date('Y-m-d',strtotime($_GET['d1']))." 00:00:00"; 
+				$d2=date('Y-m-d',strtotime($_GET['d2']))." 59:59:59";
+				$result = $db->prepare("SELECT sum(amount) AS sum FROM sales WHERE date>=:a AND date<=:b");
+				$result->bindParam(':a', $d1);
+				$result->bindParam(':b', $d2);
+				$result->execute();
+				for($i=0; $row = $result->fetch(); $i++){
+				$total=$row['sum'];
+				echo formatMoney($total, true);
 				
 				}
 				?>
 			</th>
 				<th colspan="1" style="border-top:1px solid #999999">
 			<?php 
-				$resultia = $db->prepare("SELECT sum(profit) AS profit FROM sales WHERE date>=:a AND date<=:b");
-				$resultia->bindParam(':c', $d1);
-				$resultia->bindParam(':d', $d2);
-				$resultia->execute();
-				for($i=0; $cxz = $resultia->fetch(); $i++){
-				$zxc=$cxz['profit'];
-				echo formatMoney($zxc, true);
+			$d1=date('Y-m-d',strtotime($_GET['d1']))." 00:00:00"; 
+				$d2=date('Y-m-d',strtotime($_GET['d2']))." 59:59:59";
+				$result = $db->prepare("SELECT sum(profit) AS profit FROM sales WHERE date>=:a AND date<=:b");
+				$result->bindParam(':a', $d1);
+				$result->bindParam(':b', $d2);
+				$result->execute();
+				for($i=0; $row = $result->fetch(); $i++){
+				$profit=$row['profit'];
+				echo formatMoney($profit, true);
 				}
 				?>
 		
@@ -212,13 +217,13 @@ cash summary from&nbsp;<?php $date = $_GET['d1'] ;
 			<?php
 			$c='cash';
 				$d='paid';
-				$results = $db->prepare("SELECT sum(amount) FROM sales WHERE type=:c  AND date>=:a AND date<=:b");
-				$results->bindParam(':a', $d1);
-				$results->bindParam(':b', $d2);
-				$results->bindParam(':c', $c);
-				$results->execute();
-				for($i=0; $rows = $results->fetch(); $i++){
-				$cashs=$rows['sum(amount)'];
+				$result = $db->prepare("SELECT sum(amount) as sum FROM sales WHERE type=:c  AND date>=:a AND date<=:b");
+				$result->bindParam(':a', $d1);
+				$result->bindParam(':b', $d2);
+				$result->bindParam(':c', $c);
+				$result->execute();
+				for($i=0; $row = $result->fetch(); $i++){
+				$cashs=$row['sum'];
 				echo formatMoney($cashs, true);
 				}
 				
@@ -229,14 +234,14 @@ cash summary from&nbsp;<?php $date = $_GET['d1'] ;
 			<?php 
 				$c='cash';
 				$d='paid';
-				$results = $db->prepare("SELECT sum(profit) FROM sales WHERE type=:c  AND date>=:a AND date<=:b");
-				$results->bindParam(':a', $d1);
-				$results->bindParam(':b', $d2);
-				$results->bindParam(':c', $c);
-				$results->execute();
-				for($i=0; $rows = $results->fetch(); $i++){
-				$dsdsd=$rows['sum(profit)'];
-				echo formatMoney($dsdsd, true);
+				$result = $db->prepare("SELECT sum(profit) AS profit FROM sales WHERE type=:c  AND date>=:a AND date<=:b");
+				$result->bindParam(':a', $d1);
+				$result->bindParam(':b', $d2);
+				$result->bindParam(':c', $c);
+				$result->execute();
+				for($i=0; $row = $result->fetch(); $i++){
+				$total=$row['profit'];
+				echo formatMoney($total, true);
 				}
 				?>
 		
@@ -247,12 +252,12 @@ cash summary from&nbsp;<?php $date = $_GET['d1'] ;
 			<th colspan="2" style="border-top:1px solid #999999"> Total cash payments by customers: </th>
 			<th colspan="1" style="border-top:1px solid #999999"> 
 			<?php
-				$results = $db->prepare("SELECT sum(amount2) FROM collection WHERE date2 date>=:a AND date<=:b");
-				$results->bindParam(':a', $d1);
-				$results->bindParam(':b', $d2);
-				$results->execute();
-				for($i=0; $rows = $results->fetch(); $i++){
-				$paymentsc=$rows['sum(amount2)'];
+				$result = $db->prepare("SELECT sum(amount2) AS sum FROM collection WHERE date2>=:a AND date2<=:b");
+				$result->bindParam(':a', $d1);
+				$result->bindParam(':b', $d2);
+				$result->execute();
+				for($i=0; $row = $result->fetch(); $i++){
+				$paymentsc=$row['sum'];
 				echo formatMoney($paymentsc, true);
 				
 				}
@@ -274,12 +279,12 @@ cash summary from&nbsp;<?php $date = $_GET['d1'] ;
 			
 				$d1=$_GET['d1'];
 				$d2=$_GET['d2'];
-				$results = $db->prepare("SELECT sum(amount) FROM expenses WHERE date>=:a AND date<=:b");
-				$results->bindParam(':a', $d1);
-				$results->bindParam(':b', $d2);
-				$results->execute();
-				for($i=0; $rows = $results->fetch(); $i++){
-				$exp=$rows['sum(amount)'];
+				$result = $db->prepare("SELECT sum(amount) FROM expenses WHERE date>=:a AND date<=:b");
+				$result->bindParam(':a', $d1);
+				$result->bindParam(':b', $d2);
+				$result->execute();
+				for($i=0; $row = $result->fetch(); $i++){
+				$exp=$row['sum(amount)'];
 				echo formatMoney($exp, true);
 				}
 				?>

@@ -106,6 +106,12 @@ if($position=='admin') {
 <a href="#"><font ><i class="icon-cogs icon-2x"></i></font><br> settings</a>
 <a href="inventory.php"><font ><i color="green" class="icon-desktop icon-2x"></i></font><br> inventory adjustments</a>
 <a href="admin.php"><font ><i class="icon-user icon-2x"></i></font><br> Admin</a>
+<?php
+  $Today = date('m/d/y',time());
+  $new = date('m/d/20y', strtotime($Today));
+  ?>
+<a href="cashhh.php?d1=<?php echo $new; ?>&d2=<?php echo $new; ?>"><i class="icon-money icon-2x"></i><br>today's cash</a> 
+
 <?php } ?>
 
 

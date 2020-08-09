@@ -1,0 +1,1 @@
+start http://localhost/pharmacy/index.php?db_install=true

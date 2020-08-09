@@ -34,6 +34,6 @@ foreach ($lines as $line)
         $op_data = '';
     }
 }
-echo "Table Created Inside " . $database . " Database.......";
+echo "Tables Created Inside " . $database . " Database.......";
 header("location: index.php");
 ?>

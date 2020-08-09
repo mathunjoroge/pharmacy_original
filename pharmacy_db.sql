@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 25, 2020 at 12:07 PM
+-- Generation Time: Aug 07, 2020 at 12:51 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -307,7 +307,7 @@ CREATE TABLE `pending` (
   `profit` varchar(100) NOT NULL,
   `price` varchar(100) NOT NULL,
   `discount` varchar(100) NOT NULL,
-  `date` date NOT NULL,
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `cashier` varchar(10) NOT NULL,
   `type` varchar(10) NOT NULL,
   `batch` varchar(20) NOT NULL
@@ -318,15 +318,8 @@ CREATE TABLE `pending` (
 --
 
 INSERT INTO `pending` (`transaction_id`, `invoice`, `product`, `qty`, `amount`, `profit`, `price`, `discount`, `date`, `cashier`, `type`, `batch`) VALUES
-(1, 'INV-423062', '4', '20', '600', '', '30', '', '2019-04-27', '', '', ''),
-(2, 'INV-423062', '1', '10', '100', '', '10', '', '2019-04-27', '', '', ''),
-(4, 'INV-2350353', '4', '20', '550', '', '27.5', '', '2019-04-27', '', '', ''),
-(5, 'INV-023322', '1', '100', '1000', '', '10', '', '2019-10-15', '', '', ''),
-(6, 'INV-334333', '7', '5', '500', '', '100', '', '2019-12-02', '', '', ''),
-(7, '3423033', '3', '10', '1000', '', '100', '', '2020-06-08', '', '', ''),
-(8, '2202520', '3', '10', '3000', '', '300', '', '2020-06-08', '', '', ''),
-(9, '23232083', '4', '100', '3000', '', '30', '', '2020-06-14', '', '', ''),
-(10, '23232083', '7', '50', '20000', '', '400', '', '2020-06-14', '', '', '');
+(2, '303332', '3', '300', '3000', '', '10', '', '2020-07-28 21:00:00', '', '', ''),
+(3, '3', '3', '300', '300', '', '1', '', '2020-07-28 21:00:00', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -363,11 +356,11 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `gen_name`, `o_price`, `price`, `wholesaleprice`, `profit`, `supplier`, `qty`, `instock`, `product_name`, `level`, `markup`, `product_code`, `maxdiscre`, `maxdiscpr`, `maxdiscws`, `maxdiscwsp`, `datep`, `active`, `promotionqty`, `promotion_number`) VALUES
-(3, 'amoxicillin 125mg/ml', '126.52173913043', '100', 90, 30, NULL, 36, 400, NULL, '100', NULL, 'amoxil 100ml', '', '10', '', '', '19/10/2018', 1, 100, 5),
-(4, 'amoxil 60ml', '38.212025153559', '60', 55, 20, NULL, 803, 700, NULL, '100', NULL, 'amoxil 60ml', '', '10', '', '', '19/10/2018', 1, 0, 0),
-(5, 'metronidazole 100ml', '40', '70', 60, 30, NULL, 71, 100, NULL, '50', NULL, 'flagyl susp', '', '10', '', '', '19/10/2018', 1, 0, 0),
-(6, 'Levofloxacin 500mg', '100', '400', 350, 300, NULL, 40, 50, NULL, '20', NULL, 'Levomax', '', '10', '', '', '28/04/2019', 1, 0, 0),
-(7, 'Calpol', '389.47115384615', '230', 200, 60, NULL, 52, 4, NULL, '1', NULL, 'Pcm', '', '10', '', '', '28/04/2019', 1, 0, 0);
+(3, 'amoxicillin 125mg/ml', '9.4515443973009', '100', 90, 30, NULL, 1025, 400, NULL, '100', NULL, 'amoxil 100ml', '', '10', '', '', '19/10/2018', 1, 100, 5),
+(4, 'amoxil 60ml', '36.195189588381', '60', 55, 20, NULL, 903, 1, NULL, '100', NULL, 'amoxil 60ml', '', '10', '', '', '19/10/2018', 1, 0, 0),
+(5, 'metronidazole 100ml', '40', '70', 60, 30, NULL, 61, 200, NULL, '50', NULL, 'flagyl susp', '', '10', '', '', '19/10/2018', 1, 0, 0),
+(6, 'Levofloxacin 500mg', '100', '400', 350, 300, NULL, 40, 78, NULL, '20', NULL, 'Levomax', '', '10', '', '', '28/04/2019', 1, 0, 0),
+(7, 'Calpol', '389.47115384615', '230', 200, 60, NULL, 52, 25, NULL, '1', NULL, 'Pcm', '', '10', '', '', '28/04/2019', 1, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -444,7 +437,10 @@ INSERT INTO `purchases2` (`transaction_id`, `invoice_number`, `cashier`, `date`,
 (1, 'INV-334333', 'admin', '02/12/2019', 'Cash', '500', 'Eastleigh Pharmaceuticlas', '123456'),
 (2, '3423033', 'admin', '08/06/2020', 'Cash', '1000', 'Eastleigh Pharmaceuticlas', '5566'),
 (3, '2202520', 'admin', '08/06/2020', 'Cash', '3000', 'Eastleigh Pharmaceuticlas', '556'),
-(4, '23232083', 'admin', '14/06/2020', 'Credit', '23000', 'Eastleigh Pharmaceuticlas', '7865r');
+(4, '23232083', 'admin', '14/06/2020', 'Credit', '23000', 'Eastleigh Pharmaceuticlas', '7865r'),
+(5, '33200222', 'admin', '28/07/2020', 'Cash', '2000', 'Eastleigh Pharmaceuticlas', 'iu009'),
+(6, '232405', 'admin', '28/07/2020', 'Credit', '4000', 'Eastleigh Pharmaceuticlas', 'iiu'),
+(7, '3', 'admin', '29/07/2020', 'Cash', '300', 'Eastleigh Pharmaceuticlas', 'uyi');
 
 -- --------------------------------------------------------
 
@@ -549,7 +545,9 @@ INSERT INTO `sales` (`transaction_id`, `invoice_number`, `cashier`, `date`, `typ
 (25, '239826', 'admin', '2020-06-08 12:14:37', 'cash', 700, '300', '1000', '', '', '1', ''),
 (26, '730438', 'admin', '2020-06-09 15:15:06', 'cash', 600, '206.198347108', '1000', '', '', '1', ''),
 (27, '730438', 'admin', '2020-06-09 15:17:27', 'cash', 1000, '-265.2173913043', '1000', '', '', '1', ''),
-(28, '323373', 'admin', '2020-06-14 19:58:09', 'cash', 267, '101.3698347108', '500', '', '', '1', '');
+(28, '323373', 'admin', '2020-06-14 19:58:09', 'cash', 267, '101.3698347108', '500', '', '', '1', ''),
+(29, '330322', 'admin', '2020-07-28 10:30:49', 'cash', 1000, '-265.2173913043', '1000', '', '', '1', ''),
+(30, '660', 'admin', '2020-07-29 10:57:04', 'cash', 700, '300', '700', '', '', '1', '');
 
 -- --------------------------------------------------------
 
@@ -579,15 +577,7 @@ CREATE TABLE `sales_order` (
 --
 
 INSERT INTO `sales_order` (`transaction_id`, `invoice`, `product`, `quantity`, `amount`, `profit`, `price`, `discount`, `date`, `batch`, `balance`, `st`, `rest`, `has_bonus`) VALUES
-(1, 'INV-33323202', '1', '30', '13500', '13188.9103389', 450, '0', '2020-01-11 06:00:00', '', '71', '', 1, 0),
-(2, 'INV-3932028', '1', '10', '4500', '4396.3034463', 450, '0', '2020-01-11 10:59:35', '', '61', '', 1, 0),
-(3, '202303', '4', '10', '600', '206.198347108', 60, '0', '2020-02-02 15:45:52', '', '714', '', 1, 0),
-(4, '202303', '1', '1', '450', '439.6303446303', 450, '0', '2020-02-02 15:46:10', '', '60', '', 1, 0),
-(5, '239826', '5', '10', '700', '300', 70, '0', '2020-06-08 12:14:12', '', '71', '', 1, 0),
-(6, '730438', '4', '10', '600', '206.198347108', 60, '0', '2020-06-09 15:13:04', '', '704', '', 1, 0),
-(7, '730438', '3', '10', '1000', '-265.2173913043', 100, '0', '2020-06-09 15:17:00', '', '36', '', 1, 0),
-(8, '323373', '4', '1', '60', '20.6198347108', 60, '0', '2020-06-14 19:56:01', '', '703', '', 1, 0),
-(9, '323373', '7', '1', '207', '80.75', 207, '10', '2020-06-14 19:57:18', '', '2', '', 1, 0);
+(1, '0333372', '3', '1', '100', '82.888344560115', 100, '0', '2020-07-29 11:00:58', '', '425', '', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -630,6 +620,31 @@ CREATE TABLE `settings` (
 
 INSERT INTO `settings` (`id`, `name`, `address`, `phone`, `slogan`) VALUES
 (1, 'test pharmacy', 'kisumu', ' 254739289235', '        we wish you a quick recovery');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `stock_take`
+--
+
+CREATE TABLE `stock_take` (
+  `id` int(10) NOT NULL,
+  `drug_id` int(10) NOT NULL,
+  `initial_qty` varchar(10) NOT NULL,
+  `final_qty` varchar(10) NOT NULL,
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `stock_take`
+--
+
+INSERT INTO `stock_take` (`id`, `drug_id`, `initial_qty`, `final_qty`, `date`) VALUES
+(1, 3, '400', '400', '2020-08-01 16:58:04'),
+(2, 4, '1', '1', '2020-08-01 16:58:04'),
+(3, 5, '200', '200', '2020-08-01 16:58:04'),
+(4, 6, '78', '78', '2020-08-01 16:58:04'),
+(5, 7, '25', '25', '2020-08-01 16:58:04');
 
 -- --------------------------------------------------------
 
@@ -845,6 +860,12 @@ ALTER TABLE `settings`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `stock_take`
+--
+ALTER TABLE `stock_take`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `supliers`
 --
 ALTER TABLE `supliers`
@@ -948,7 +969,7 @@ ALTER TABLE `payments`
 -- AUTO_INCREMENT for table `pending`
 --
 ALTER TABLE `pending`
-  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `products`
@@ -978,7 +999,7 @@ ALTER TABLE `purchases`
 -- AUTO_INCREMENT for table `purchases2`
 --
 ALTER TABLE `purchases2`
-  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `purchases_item`
@@ -1002,13 +1023,13 @@ ALTER TABLE `salaries`
 -- AUTO_INCREMENT for table `sales`
 --
 ALTER TABLE `sales`
-  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT for table `sales_order`
 --
 ALTER TABLE `sales_order`
-  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `transaction_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `sales_returns`
@@ -1021,6 +1042,12 @@ ALTER TABLE `sales_returns`
 --
 ALTER TABLE `settings`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `stock_take`
+--
+ALTER TABLE `stock_take`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `supliers`

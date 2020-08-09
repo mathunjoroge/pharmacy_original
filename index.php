@@ -1,3 +1,9 @@
+<?php
+	if (isset($_GET['db_install'])) {
+		header("location:database.php");
+	 	
+	 } 
+	 ?>
 <?php 
 session_start();
 	unset($_SESSION['SESS_MEMBER_ID']);
@@ -31,6 +37,7 @@ Login
 <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 <body>
+	
     <div class="container-fluid">
       <div class="row-fluid">
 		<div class="span4">

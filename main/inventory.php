@@ -111,7 +111,7 @@ window.onload=startclock;
 
 <a href="stocktake.php"><font ><i class="icon-shopping-cart icon-2x"></i></font><br>stock take</a> 
 
-<a href="bincard.php?term=1&d1=0&d2=0""><i class="icon-dashboard icon-2x"></i><br>inventory tracker</a>      
+<a href="bincard.php"><i class="icon-dashboard icon-2x"></i><br>inventory tracker</a>      
      
    
 

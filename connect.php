@@ -1,4 +1,5 @@
 <?php
+
 /* Database config */
 $db_host		= 'localhost';
 $db_user		= 'root';

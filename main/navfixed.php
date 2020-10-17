@@ -1,5 +1,6 @@
 <body style="text-transform:capitalize;">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../favicon.ico"  > 
  <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner" id="nav">
         <div class="container-fluid">
